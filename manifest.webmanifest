@@ -1,0 +1,15 @@
+{
+  "name": "معمل الكيمياء اليمني التفاعلي",
+  "short_name": "معمل الكيمياء",
+  "description": "تطبيق تعليمي تفاعلي لتعلم الكيمياء باللغة العربية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f8fb",
+  "theme_color": "#10243a",
+  "icons": [
+    {"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}

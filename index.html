@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243a">
+  <meta name="description" content="معمل الكيمياء اليمني التفاعلي - تعلم الكيمياء بطريقة تفاعلية دون إنترنت">
+  <title>معمل الكيمياء اليمني التفاعلي</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="الرئيسية">
+      <span class="brand-mark">⚗</span>
+      <span><strong>معمل الكيمياء</strong><small>اليمني التفاعلي</small></span>
+    </a>
+    <button id="installBtn" class="install-btn" hidden>تثبيت التطبيق</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">رحلتك نحو فهم الكيمياء</p>
+        <h1>من الحفظ إلى <span>الفهم والتجربة</span></h1>
+        <p>تعلم المفاهيم الكيميائية، اختبر فهمك، واستكشف محاكاة تعليمية آمنة. يعمل التطبيق دون إنترنت بعد تحميله أول مرة.</p>
+        <a class="primary-btn" href="#units">ابدأ التعلم <span>←</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="flask">⚗</div><span class="bubble b1">H₂</span><span class="bubble b2">O₂</span><span class="bubble b3">Na</span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="ملخص المحتوى">
+      <article><strong id="unitCount">8</strong><span>وحدات تعليمية</span></article>
+      <article><strong>تفاعلي</strong><span>تعلم بالممارسة</span></article>
+      <article><strong>دون إنترنت</strong><span>بعد التحميل الأول</span></article>
+    </section>
+
+    <section id="units" class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">المحتوى التعليمي</p><h2>استكشف الوحدات</h2></div>
+        <span class="section-note">اختر وحدة للبدء</span>
+      </div>
+      <div id="unitGrid" class="unit-grid"></div>
+    </section>
+
+    <section id="lessonPanel" class="lesson-panel" hidden>
+      <button id="backBtn" class="back-btn">→ العودة إلى الوحدات</button>
+      <div id="lessonContent"></div>
+    </section>
+
+    <section class="notice">
+      <span class="notice-icon">ⓘ</span>
+      <p><strong>تنبيه تعليمي:</strong> جميع التجارب في هذا التطبيق محاكاة رقمية فقط. لا تنفّذ التفاعلات الكيميائية الخطرة في المنزل أو خارج مختبر مجهز وتحت إشراف مختص.</p>
+    </section>
+  </main>
+
+  <footer><span>معمل الكيمياء اليمني التفاعلي</span><span>نسخة تعليمية أولية • 2026</span></footer>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
